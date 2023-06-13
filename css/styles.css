@@ -51,7 +51,7 @@ button {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
 }
 
 .list {
@@ -78,8 +78,8 @@ button {
 /**=============== COMPONENTS================== */
 
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .section-title {
@@ -298,11 +298,15 @@ button {
 }
 
 .advantages-list {
-  gap: 72px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 
 .advantages-item {
   flex-basis: calc((100% -3 * 24px) / 4);
+  outline: 1px solid teal;
 }
 
 .advantages-wrapper {
