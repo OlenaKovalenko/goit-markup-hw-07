@@ -50,10 +50,9 @@ button {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  outline: 1px solid red; */
+  /* display: flex;
+  flex-wrap: wrap; */
+  outline: 1px solid red;
 }
 
 .list {
@@ -241,30 +240,45 @@ button {
 /** ==================SECTION HERO =================*/
 
 .hero {
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 112px;
+  padding-bottom: 112px;
   margin: 0 auto;
-  max-width: 1440px;
+  /* max-width: 1440px; */
 
   background-color: var(--hero-background-color);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-bg.jpg);
+    url(../images/hero-bg-mob.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-mob-2x.jpg);
+  }
+}
+
 .hero-title {
   margin: 0 auto;
-  margin-bottom: 48px;
-  max-width: 496px;
+  margin-bottom: 72px;
+  max-width: 320px;
 
-  font-size: 56px;
-  line-height: 1.07;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
   color: var(--primary-white-color);
 }
 
