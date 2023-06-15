@@ -48,10 +48,10 @@ button {
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
+  /* margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  outline: 1px solid red;
+  outline: 1px solid red; */
 }
 
 .list {
@@ -299,9 +299,9 @@ button {
 
 .advantages-list {
   width: 100%;
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 24px; */
 }
 
 .advantages-item {
@@ -310,20 +310,11 @@ button {
 }
 
 .advantages-wrapper {
-  margin-bottom: 8px;
-  width: 264px;
-  height: 112px;
-
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  border: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: none;
 }
 
 .advantages-icon {
-  display: block;
+  display: none;
 }
 
 /** ===============SECTION OUR WORK=============*/
