@@ -360,6 +360,7 @@ button {
   flex-wrap: wrap;
   gap: 72px;
 
+  justify-content: center;
   text-align: center;
 }
 
@@ -423,13 +424,15 @@ button {
 
 .customers-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  row-gap: 72px;
+  column-gap: 16px;
 }
 
 .customers-item {
-  width: 168px;
+  width: calc((100% - 16px) / 2);
   height: 88px;
 }
 

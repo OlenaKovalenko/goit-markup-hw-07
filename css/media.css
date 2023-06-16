@@ -79,6 +79,16 @@
   .team-item {
     width: calc((100% - 24px) / 2);
   }
+
+  /*?==============section customers============= */
+
+  .customers > .container {
+    max-width: 582px;
+  }
+
+  .customers-item {
+    width: calc((100% - 2 * 24px) / 3);
+  }
 }
 
 /*!==============DESKTOP============= */
@@ -174,5 +184,15 @@
 
   .team-item {
     width: calc((100% - 3 * 24px) / 4);
+  }
+
+  /*?==============section customers============= */
+
+  .customers > .container {
+    max-width: 1158px;
+  }
+
+  .customers-item {
+    width: calc((100% - 5 * 24px) / 6);
   }
 }
