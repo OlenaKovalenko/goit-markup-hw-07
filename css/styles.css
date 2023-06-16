@@ -336,17 +336,17 @@ button {
 /** ===============SECTION OUR WORK=============*/
 
 .work {
-  padding-top: 0;
+  display: none;
 }
 
-.work-list {
+/* .work-list {
   display: flex;
   gap: 24px;
 }
 
 .work-item {
   flex-basis: calc((100% -2 * 24px) / 3);
-}
+} */
 
 /**==============SECTION OUR TEAM =============*/
 

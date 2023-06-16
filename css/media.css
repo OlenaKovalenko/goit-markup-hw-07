@@ -1,4 +1,6 @@
-@media screen and (min-width: 320px) {
+/*!==============MOBILE============= */
+
+@media screen and (min-width: 428px) {
   .container {
     max-width: 426px;
   }
@@ -12,6 +14,8 @@
   }
 }
 
+/*!==============TABLET============= */
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 766px;
@@ -19,7 +23,7 @@
     padding-bottom: 96px; */
   }
 
-  /**==============HERO============= */
+  /*?==============hero============= */
   .hero-title {
     margin-bottom: 36px;
     max-width: 496px;
@@ -59,10 +63,14 @@
   }
 }
 
+/*!==============DESKTOP============= */
+
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
   }
+
+  /*?==============hero============= */
 
   .hero {
     padding-top: 188px;
@@ -93,6 +101,8 @@
     margin-bottom: 48px;
   }
 
+  /*?==========section2 advantages ========= */
+
   .advantages-list {
     width: 100%;
 
@@ -103,6 +113,8 @@
   .advantages-item {
     width: calc((100% - 72px) / 4);
   }
+
+  /*?==========section2 advantages ========= */
 
   .advantages-wrapper {
     display: block;
@@ -120,5 +132,21 @@
 
   .advantages-icon {
     display: block;
+  }
+
+  /*?==========section3 our work ========= */
+
+  .work {
+    display: block;
+    padding-top: 120px;
+  }
+
+  .work-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .work-item {
+    flex-basis: calc((100% -2 * 24px) / 3);
   }
 }
