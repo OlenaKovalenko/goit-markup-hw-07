@@ -24,6 +24,7 @@
   }
 
   /*?==============hero============= */
+
   .hero-title {
     margin-bottom: 36px;
     max-width: 496px;
@@ -51,6 +52,9 @@
         url(../images/hero-bg-tab-2x.jpg);
     }
   }
+
+  /*?==========section2 advantages ========= */
+
   .advantages-list {
     width: 100%;
     display: flex;
@@ -59,6 +63,20 @@
   }
 
   .advantages-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  /*?==============section our team============= */
+
+  .team > .container {
+    max-width: 582px;
+  }
+
+  .team-list {
+    gap: 24px;
+  }
+
+  .team-item {
     width: calc((100% - 24px) / 2);
   }
 }
@@ -114,8 +132,6 @@
     width: calc((100% - 72px) / 4);
   }
 
-  /*?==========section2 advantages ========= */
-
   .advantages-wrapper {
     display: block;
     margin-bottom: 8px;
@@ -148,5 +164,15 @@
 
   .work-item {
     flex-basis: calc((100% -2 * 24px) / 3);
+  }
+
+  /*?==============section our team============= */
+
+  .team > .container {
+    max-width: 1185px;
+  }
+
+  .team-item {
+    width: calc((100% - 3 * 24px) / 4);
   }
 }

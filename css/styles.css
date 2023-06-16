@@ -37,6 +37,7 @@ ul {
 img {
   display: block;
   width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -356,13 +357,14 @@ button {
 
 .team-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 72px;
 
   text-align: center;
 }
 
 .team-item {
-  width: calc((100% -3 * 24px) / 4);
+  width: 100%;
 
   background-color: var(--primary-white-color);
   border-radius: 0px 0px 4px 4px;
