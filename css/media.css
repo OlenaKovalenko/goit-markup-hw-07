@@ -56,14 +56,14 @@
   /*?==========section2 advantages ========= */
 
   .advantages-list {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
+    row-gap: 24px;
+    column-gap: 72px;
   }
 
   .advantages-item {
+    /* width: 356px; */
     width: calc((100% - 24px) / 2);
+    /* width: calc((100% - 24px) / 2); */
   }
 
   /*?==============section our team============= */
@@ -88,6 +88,11 @@
 
   .customers-item {
     width: calc((100% - 2 * 24px) / 3);
+  }
+  /*?==============footer============= */
+
+  .footer > .container {
+    max-width: 582px;
   }
 }
 
@@ -139,7 +144,7 @@
   }
 
   .advantages-item {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
   }
 
   .advantages-wrapper {
@@ -194,5 +199,11 @@
 
   .customers-item {
     width: calc((100% - 5 * 24px) / 6);
+  }
+
+  /*?==============footer============= */
+
+  .footer > .container {
+    max-width: 1158px;
   }
 }
