@@ -311,10 +311,6 @@ button {
 
 /** ===============SECTION OUR ADVANTAGES =============*/
 
-.advantages-title {
-  text-align: center;
-}
-
 .advantages-list {
   padding: 0;
   margin: 0 auto;
@@ -330,6 +326,24 @@ button {
   outline: 1px solid teal;
 }
 
+.advantages-title {
+  margin-bottom: 8px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--secondary-text-color);
+}
+
+.advantages-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
 .advantages-wrapper {
   display: none;
 }

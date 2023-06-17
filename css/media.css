@@ -5,26 +5,7 @@
     max-width: 426px;
   }
 
-  .advantages-wrapper {
-    display: none;
-  }
-}
-
-/*!==============TABLET============= */
-
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 766px;
-  }
-
   /*?==============hero============= */
-
-  .hero-title {
-    margin-bottom: 36px;
-    max-width: 496px;
-    font-size: 56px;
-    line-height: 1.07;
-  }
 
   .hero {
     background-color: var(--hero-background-color);
@@ -47,6 +28,48 @@
     }
   }
 
+  .advantages-wrapper {
+    display: none;
+  }
+}
+
+/*!==============TABLET============= */
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 766px;
+  }
+
+  /*?==============hero============= */
+
+  .hero {
+    background-color: var(--hero-background-color);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg-2x.jpg);
+    }
+  }
+
+  .hero-title {
+    margin-bottom: 36px;
+    max-width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+  }
+
   /*?==========section2 advantages ========= */
 
   .advantages-list {
@@ -56,6 +79,10 @@
 
   .advantages-item {
     width: calc((100% - 24px) / 2);
+  }
+
+  .advantages-title {
+    text-align: left;
   }
 
   /*?==============section our team============= */
@@ -77,6 +104,10 @@
 
   .customers > .container {
     max-width: 582px;
+  }
+
+  .customers-list {
+    column-gap: 24px;
   }
 
   .customers-item {
@@ -102,25 +133,6 @@
     padding-top: 188px;
     padding-bottom: 188px;
     max-width: 1440px;
-
-    background-color: var(--hero-background-color);
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero-bg.jpg);
-  }
-
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero {
-      background-image: linear-gradient(
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
-        url(../images/hero-bg-2x.jpg);
-    }
   }
 
   .hero-title {
@@ -135,6 +147,16 @@
 
   .advantages-item {
     width: calc((100% - 3 * 24px) / 4);
+  }
+
+  .advantages-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2px;
+  }
+
+  .advantages-text {
+    font-weight: 400;
   }
 
   .advantages-wrapper {
