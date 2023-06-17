@@ -494,33 +494,27 @@ button {
   align-items: center;
   gap: 72px;
   width: 100%;
-  /* margin: 0 auto; */
   /* align-items: baseline; */
 }
 
 .footer-text-wrapper {
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: center; */
-  margin-right: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .logo-footer {
   color: var(--light-cloud-color);
 }
 
-.footer-logotype {
-  display: block;
-  margin: 0 auto;
-}
-
 .footer-text {
   color: var(--light-cloud-color);
-  width: 264px;
+  max-width: 268px;
 }
 
 .footer .logotype {
   display: inline-block;
+  padding: 0;
   margin: 0 auto;
   margin-bottom: 16px;
   /* text-align: center; */
@@ -597,6 +591,7 @@ button {
 }
 .footer-form-label {
 }
+
 .footer-form-input {
   width: 100%;
   height: 40px;
