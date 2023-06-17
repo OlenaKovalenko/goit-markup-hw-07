@@ -327,7 +327,6 @@ button {
 .advantages-item {
   width: 100%;
   margin: 0 auto;
-  /* flex-basis: calc((100% -3 * 24px) / 4); */
   outline: 1px solid teal;
 }
 

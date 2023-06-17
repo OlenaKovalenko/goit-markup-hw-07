@@ -8,10 +8,6 @@
   .advantages-wrapper {
     display: none;
   }
-
-  .advantages-item {
-    margin-bottom: 72px;
-  }
 }
 
 /*!==============TABLET============= */
@@ -19,8 +15,6 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 766px;
-    /* padding-top: 96px;
-    padding-bottom: 96px; */
   }
 
   /*?==============hero============= */
@@ -56,14 +50,12 @@
   /*?==========section2 advantages ========= */
 
   .advantages-list {
-    row-gap: 24px;
-    column-gap: 72px;
+    row-gap: 72px;
+    column-gap: 24px;
   }
 
   .advantages-item {
-    /* width: 356px; */
     width: calc((100% - 24px) / 2);
-    /* width: calc((100% - 24px) / 2); */
   }
 
   /*?==============section our team============= */
@@ -73,7 +65,8 @@
   }
 
   .team-list {
-    gap: 24px;
+    row-gap: 64px;
+    column-gap: 24px;
   }
 
   .team-item {
@@ -138,9 +131,6 @@
 
   .advantages-list {
     width: 100%;
-
-    display: flex;
-    flex-wrap: wrap;
   }
 
   .advantages-item {
