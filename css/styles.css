@@ -51,8 +51,6 @@ button {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* display: flex;
-  flex-wrap: wrap; */
   outline: 1px solid red;
 }
 

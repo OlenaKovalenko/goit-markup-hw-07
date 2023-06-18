@@ -189,16 +189,6 @@
     width: calc((100% - 3 * 24px) / 4);
   }
 
-  .advantages-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2px;
-  }
-
-  .advantages-text {
-    font-weight: 400;
-  }
-
   .advantages-wrapper {
     display: block;
     margin-bottom: 8px;
@@ -215,6 +205,17 @@
 
   .advantages-icon {
     display: block;
+  }
+
+  .advantages-title {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2px;
+  }
+
+  .advantages-text {
+    font-weight: 400;
   }
 
   /*?==========section3 our work ========= */
