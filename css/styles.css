@@ -677,13 +677,15 @@ button {
   transition: transform var(--transition-dur-and-func);
   padding: 72px 24px 24px 24px;
 
-  width: 408px;
+  width: 95%;
+  max-width: 392px;
   min-height: 584px;
 
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  overflow-y: scroll;
 }
 
 .backdrop.is-hidden .modal {
