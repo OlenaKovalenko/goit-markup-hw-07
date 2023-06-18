@@ -40,6 +40,95 @@
     max-width: 766px;
   }
 
+  /*?==============header============= */
+
+  .menu-open-btn {
+    display: none;
+  }
+  .header-nav-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .header-nav-link {
+    position: relative;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+
+    transition: color var(--transition-dur-and-func);
+  }
+
+  .header-nav-link:hover,
+  .header-nav-link:focus {
+    color: var(--accent-color);
+  }
+
+  .header-nav-link.current {
+    color: var(--accent-color);
+  }
+
+  .header-nav-link::after {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+
+    transform: scaleX(0);
+    transition: transform var(--transition-dur-and-func);
+
+    content: "";
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--accent-color);
+    opacity: 0;
+  }
+
+  .header-nav-link:hover::after,
+  .header-nav-link:focus::after,
+  .header-nav-link.current::after {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+
+  .header-contacts {
+    display: inline-block;
+    margin-left: auto;
+    font-style: normal;
+  }
+
+  .header-contacts-list {
+    display: block;
+    align-items: center;
+  }
+
+  .header-contacts-item:first-child {
+    margin-bottom: 12px;
+  }
+
+  .header-contacts-link {
+    display: inline-block;
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+
+    transition: color var(--transition-dur-and-func);
+  }
+
+  .header-contacts-link:hover,
+  .header-contacts-link:focus {
+    color: var(--accent-color);
+  }
+
   /*?==============hero============= */
 
   .hero {
@@ -171,6 +260,22 @@
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+  }
+
+  /*?==============header============= */
+  .header-contacts-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .header-contacts-item:first-child {
+    margin: 0;
+  }
+
+  .header-contacts-link {
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 
   /*?==============hero============= */
