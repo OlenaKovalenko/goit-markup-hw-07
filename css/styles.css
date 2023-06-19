@@ -163,14 +163,17 @@ button {
 .menu-open-btn {
   background-color: transparent;
   border: none;
+  padding: 0;
   margin-left: auto;
 }
+
 .menu-open-icon {
   stroke: #000000;
 }
 
 .mob-menu {
   position: fixed;
+  top: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -179,7 +182,8 @@ button {
   z-index: 100;
   padding: 24px 24px 40px 40px;
   background-color: var(--primary-white-color);
-  top: 0;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   overflow: auto;
   transition: opacity var(--transition-dur-and-func),
     visibility var(--transition-dur-and-func);
@@ -193,10 +197,18 @@ button {
 
 .menu-close-btn {
   display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #e7e9fc;
+  color: #2e2f42;
+  /* opacity: 0.1; */
+  border: 1px solid #2e2f42;
   margin-left: auto;
   margin-bottom: 32px;
 }
 .menu-close-icon {
+  fill: currentColor;
 }
 .mob-menu-list {
   margin-bottom: 50px;
@@ -811,12 +823,15 @@ button {
   fill: #2e2f42;
   transition: fill var(--transition-dur-and-func);
 }
+
 .modal-input:focus + .modal-form-icon {
   fill: var(--primary-brand-color);
 }
+
 .modal-field-comment {
   margin-bottom: 16px;
 }
+
 .modal-comment {
   padding: 8px 16px;
   width: 100%;
