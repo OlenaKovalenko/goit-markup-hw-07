@@ -181,6 +181,14 @@ button {
   background-color: var(--primary-white-color);
   top: 0;
   overflow: auto;
+  transition: opacity var(--transition-dur-and-func),
+    visibility var(--transition-dur-and-func);
+}
+
+.mob-menu.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .menu-close-btn {
