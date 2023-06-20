@@ -704,7 +704,7 @@ button {
   transition: transform var(--transition-dur-and-func);
   padding: 72px 24px 24px 24px;
 
-  width: 95%;
+  width: calc(100% - 30px);
   max-width: 392px;
   min-height: 584px;
 
