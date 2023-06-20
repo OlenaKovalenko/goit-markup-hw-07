@@ -129,6 +129,15 @@
     color: var(--accent-color);
   }
 
+  /*?==============modal window============= */
+  .mob-menu {
+    display: none;
+  }
+
+  .menu-open-btn {
+    display: none;
+  }
+
   /*?==============hero============= */
 
   .hero {
