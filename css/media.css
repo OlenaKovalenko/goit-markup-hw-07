@@ -310,7 +310,10 @@
   }
 
   .advantages-wrapper {
-    display: block;
+    /* display: block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 8px;
     width: 264px;
     height: 112px;
@@ -318,9 +321,6 @@
     background-color: #f4f4fd;
     border-radius: 4px;
     border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .advantages-icon {
