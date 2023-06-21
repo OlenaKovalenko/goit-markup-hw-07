@@ -2,7 +2,6 @@
 
 @media screen and (min-width: 428px) {
   .container {
-    max-width: 426px;
   }
 
   /*?==============hero============= */
@@ -45,6 +44,7 @@
   .menu-open-btn {
     display: none;
   }
+
   .header-nav-list {
     display: flex;
     gap: 40px;
@@ -301,16 +301,11 @@
 
   /*?==========section2 advantages ========= */
 
-  .advantages-list {
-    width: 100%;
-  }
-
   .advantages-item {
     width: calc((100% - 3 * 24px) / 4);
   }
 
   .advantages-wrapper {
-    /* display: block; */
     display: flex;
     justify-content: center;
     align-items: center;
