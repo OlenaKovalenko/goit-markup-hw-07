@@ -266,6 +266,20 @@
 
   /*?==============portfolio============= */
 
+  .portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .portfolio-btn-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+
+    margin-bottom: 64px;
+    justify-content: center;
+  }
+
   .portfolio-cards-list {
     column-gap: 24px;
     row-gap: 72px;
@@ -409,6 +423,15 @@
   }
 
   /*?==============portfolio============= */
+
+  .portfolio {
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+
+  .portfolio-btn-list {
+    margin-bottom: 72px;
+  }
 
   .portfolio-cards-list {
     row-gap: 48px;

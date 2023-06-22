@@ -991,17 +991,20 @@ button {
 /**================PORTFOLIO ===============*/
 
 .portfolio {
-  padding-top: 96px;
-  padding-bottom: 120px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 /**================PORTFOLIO BUTTONS===============*/
 
 .portfolio-btn-list {
   display: flex;
-  gap: 24px;
-  margin-bottom: 72px;
-  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 16px;
+
+  margin-bottom: 48px;
+  justify-content: flex-start;
 }
 
 .portfolio-btn-item {
@@ -1044,10 +1047,6 @@ button {
   flex-wrap: wrap;
   gap: 48px;
 }
-
-/* .portfolio-cards-item {
-  flex-basis: calc((100% - 2 * 24px) / 3);
-} */
 
 .cards-wrappig {
   padding: 32px 16px;
