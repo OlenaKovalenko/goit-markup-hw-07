@@ -78,7 +78,6 @@ button {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid red;
 }
 
 .section {
@@ -161,7 +160,6 @@ button {
 }
 /** =================MOBILE MENU==================*/
 
-/* @media screen and (max-width: 767px) { */
 .menu-open-btn {
   background-color: transparent;
   border: none;
@@ -229,6 +227,7 @@ button {
 .menu-close-icon {
   fill: currentColor;
 }
+
 .mob-menu-list {
   margin-bottom: 50px;
 }
@@ -259,9 +258,6 @@ button {
   font-style: normal;
   margin-bottom: 48px;
   margin-top: auto;
-}
-
-.mob-menu-contacts-list {
 }
 
 .mob-menu-contacts-item:first-child {
@@ -320,7 +316,6 @@ button {
 .mob-soc-icon:focus {
   background-color: var(--accent-color);
 }
-/* } */
 
 /** ==================SECTION HERO =================*/
 
@@ -328,7 +323,6 @@ button {
   padding-top: 112px;
   padding-bottom: 112px;
   margin: 0 auto;
-  /* max-width: 1440px; */
 
   background-color: var(--hero-background-color);
   background-image: linear-gradient(
@@ -397,7 +391,6 @@ button {
 
 .advantages-list {
   padding: 0;
-  margin: 0 auto;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -406,15 +399,9 @@ button {
 
 .advantages-item {
   width: 100%;
-  margin: 0 auto;
-  outline: 1px solid teal;
 }
 
 .advantages-wrapper {
-  display: none;
-}
-
-.advantages-icon {
   display: none;
 }
 
@@ -442,15 +429,6 @@ button {
 .work {
   display: none;
 }
-
-/* .work-list {
-  display: flex;
-  gap: 24px;
-}
-
-.work-item {
-  flex-basis: calc((100% -2 * 24px) / 3);
-} */
 
 /**==============SECTION OUR TEAM =============*/
 
@@ -522,9 +500,6 @@ button {
 
 /** ===================SECTION CUSTOMERS===================== */
 
-.customers {
-}
-
 .customers-list {
   display: flex;
   flex-wrap: wrap;
@@ -579,7 +554,6 @@ button {
   align-items: center;
   gap: 72px;
   width: 100%;
-  /* align-items: baseline; */
 }
 
 .footer-text-wrapper {
@@ -602,7 +576,6 @@ button {
   padding: 0;
   margin: 0 auto;
   margin-bottom: 16px;
-  /* text-align: center; */
 }
 
 .footer-soc-text {
@@ -659,11 +632,6 @@ button {
   width: 100%;
 }
 
-.footer-form {
-  /* display: flex;
-  gap: 24px;
-  align-items: center; */
-}
 .footer-form-title {
   margin-bottom: 16px;
   text-align: center;
@@ -673,8 +641,6 @@ button {
   letter-spacing: 0.02em;
   vertical-align: center;
   color: var(--primary-white-color);
-}
-.footer-form-label {
 }
 
 .footer-form-input {
@@ -697,7 +663,6 @@ button {
   line-height: 2;
   letter-spacing: 0.04em;
   color: var(--primary-white-color);
-  /* padding-left: 16px; */
 }
 
 .footer-form-btn {
@@ -729,6 +694,7 @@ button {
 .footer-form-btn:focus {
   background-color: var(--accent-color);
 }
+
 .footer-form-icon {
   width: 24px;
   height: 24px;
@@ -816,9 +782,6 @@ button {
 
 /**================FORM OF THE MODAL WINDOW===============*/
 
-.modal-form {
-}
-
 .modal-title-text {
   margin-bottom: 16px;
   font-weight: 500;
@@ -832,7 +795,6 @@ button {
 .modal-field {
   position: relative;
   margin-bottom: 8px;
-  /* outline: 1px solid tomato; */
 }
 
 .moodal-field:last-child {
@@ -920,6 +882,7 @@ button {
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
 }
+
 .modal-check {
   margin-bottom: 24px;
 }
@@ -946,6 +909,7 @@ button {
   transition: background-color var(--transition-dur-and-func),
     border var(--transition-dur-and-func), fill var(--transition-dur-and-func);
 }
+
 .modal-check-icon {
   width: 10px;
   height: 8px;
@@ -1005,9 +969,6 @@ button {
 
   margin-bottom: 48px;
   justify-content: flex-start;
-}
-
-.portfolio-btn-item {
 }
 
 .portfolio-button {
