@@ -413,6 +413,14 @@ button {
   outline: 1px solid teal;
 }
 
+.advantages-wrapper {
+  display: none;
+}
+
+.advantages-icon {
+  display: none;
+}
+
 .advantages-title {
   margin-bottom: 8px;
   text-align: center;
@@ -430,13 +438,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-}
-.advantages-wrapper {
-  display: none;
-}
-
-.advantages-icon {
-  display: none;
 }
 
 /** ===============SECTION OUR WORK=============*/
