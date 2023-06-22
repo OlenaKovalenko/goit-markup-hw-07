@@ -177,14 +177,9 @@ button {
 .mob-menu {
   position: fixed;
   top: 0;
-  /* left: 0; */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   width: 100vw;
   height: 100vh;
   z-index: 1000;
-  padding: 24px 24px 40px 40px;
   background-color: var(--primary-white-color);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -193,20 +188,22 @@ button {
     visibility var(--transition-dur-and-func);
 }
 
-/* .mob-menu > .container {
-    max-width: 426px;
-  } */
+.mob-menu > .container {
+  max-width: 426px;
+}
 
-/* .mob-menu-container {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-left: 25px;
-    padding-top: 80px;
-    padding-bottom: 40px;
-    outline: 1px solid green;
-  } */
+.mob-menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .mob-menu.is-hidden {
   visibility: hidden;
@@ -222,10 +219,9 @@ button {
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  background-color: transparent;
+  background-color: rgb(231, 233, 252, 0.1);
   color: #2e2f42;
-  /* opacity: 0.1; */
-  border: 1px solid #2e2f42;
+  border: 1px solid rgb(46, 47, 66, 0.1);
   margin-left: auto;
   margin-bottom: 32px;
 }
@@ -240,6 +236,7 @@ button {
 .mob-menu-item:not(:last-child) {
   margin-bottom: 40px;
 }
+
 .mob-menu-link {
   font-weight: 700;
   font-size: 36px;
@@ -273,13 +270,13 @@ button {
 
 .mob-menu-tel-link {
   font-weight: 700;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--primary-brand-color);
 }
 
-@media screen and (min-width: 396px) {
+@media screen and (min-width: 418px) {
   .mob-menu-tel-link {
     font-size: 36px;
   }
