@@ -263,6 +263,17 @@
   .modal {
     max-width: 408px;
   }
+
+  /*?==============portfolio============= */
+
+  .portfolio-cards-list {
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .portfolio-cards-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
 }
 
 /*!==============DESKTOP============= */
@@ -395,5 +406,15 @@
 
   .footer-soc-wrapper {
     margin-right: 80px;
+  }
+
+  /*?==============portfolio============= */
+
+  .portfolio-cards-list {
+    row-gap: 48px;
+  }
+
+  .portfolio-cards-item {
+    flex-basis: calc((100% - 2 * 24px) / 3);
   }
 }
